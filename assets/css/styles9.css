@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.contenedor{
+    height: 320px;
+    width: 800px;
+    margin-left: 300px;
+    background-color: grey;
+}
+
+.nav{
+    color: white;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1rem;
+}
+
+.menu{
+
+    margin-top: -50px;
+    height: 180px;
+    width: 200px;
+    background-color: rgb(214, 218, 218);
+}
+
+.menu-titulo{
+    position: static;
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+
+.menu-item{
+    margin-left: 40px;
+    color: blue;
+}
+
+.texto{
+    position: static;
+    margin-top: -176px;
+    margin-left :200px;
+    width: 600px;
+    height: 180px;
+    background-color: white;
+    text-align: left;
+}
+
+.texto-titulo{
+    margin-left: 20px;
+    text-align: left;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.texto-texto{
+    
+    margin-left: 20px;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.final{
+    margin-top: -15px;
+    height: 40px;
+    width: 800px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+.final-texto{
+    margin-top: 35px;
+}
+
+.button{
+    text-align: center;
+    padding: 40px 30px;
+}
+
+
+.button-1{   
+    color: white;
+    display: inline-block;
+    padding: 0 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    background-color:rgb(126, 121, 121);      
+ }
+ .button-1:hover{
+    background-color: rgba(72, 168, 241, 0.638);
+ }

@@ -1,0 +1,59 @@
+body {
+        margin: 0;
+        padding: 0;
+    }
+    .main {
+        margin: 5px;
+        
+    }
+    .box {       
+        background-color: green;
+        position:fixed;
+        top: 0;
+        left: 0;
+        border: 2px solid #808080;
+        height: 100px;
+    }
+    
+    .img-logo{
+        padding: 20px;
+        height: auto;
+        width: 90%;
+    }
+
+    .caja{
+        position: relative;
+        box-sizing: border-box;
+        width: 23%;
+        margin: 1%;
+        padding: 5px;
+        height: 20vh;
+        
+        /*display: inline-block; sirve pero queda espacios*/
+        float:left;
+    }
+    
+    .contenido{
+        padding: 120px 0px 50px 0px;
+    }
+
+
+    .button{
+        text-align: center;
+        padding: 40px 30px;
+    }
+    
+    
+    .button-1{   
+        color: white;
+        display: inline-block;
+        padding: 0 2rem;
+        height: 2rem;
+        line-height: 2rem;
+        border-radius: 1rem;
+        text-decoration: none;
+        background-color:rgb(126, 121, 121);      
+     }
+     .button-1:hover{
+        background-color: rgba(72, 168, 241, 0.638);
+     }

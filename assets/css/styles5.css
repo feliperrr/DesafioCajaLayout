@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.lentes{
+    margin-top: 30px;
+    margin-left: 600px;
+    position:absolute;
+    width:auto;
+    height:600px;
+       
+}
+
+.ribbon{
+    position:absolute;
+}
+
+.ribbon-1{
+    top: 10px;
+    left: -15px;
+}
+
+
+.button{
+    text-align: left;
+    padding: 40px 30px;
+}
+
+
+.button-1{   
+    color: white;
+    display: inline-block;
+    padding: 0 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    background-color:rgb(126, 121, 121);      
+ }
+ .button-1:hover{
+    background-color: rgba(72, 168, 241, 0.638);
+ }

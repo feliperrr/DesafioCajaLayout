@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.ribbon{
+    position: relative;
+    box-sizing:content-box;
+    float:right;    
+}
+
+
+.button{
+    text-align: center;
+    padding: 300px 30px;
+}
+
+
+.button-1{   
+    color: white;
+    display: inline-block;
+    padding: 0 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    background-color:rgb(126, 121, 121);      
+ }
+ .button-1:hover{
+    background-color: rgba(72, 168, 241, 0.638);
+ }

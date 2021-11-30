@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    }
+    .main {
+        margin-top: 10px;
+        margin-left: 250px;
+        height: 180px;
+        width: 640px;
+        background-color: #B0CCAB;
+        padding: 50px;
+        position: static;
+       
+    }
+
+    .main__paragraph {
+        margin-left:25px ;
+        left: 40px;
+        padding:20px;
+        position: static;
+        
+    }
+
+    .button{
+        text-align: center;
+        padding: 40px 30px;
+    }
+    
+    
+    .button-1{   
+        color: white;
+        display: inline-block;
+        padding: 0 2rem;
+        height: 2rem;
+        line-height: 2rem;
+        border-radius: 1rem;
+        text-decoration: none;
+        background-color:rgb(126, 121, 121);      
+     }
+     .button-1:hover{
+        background-color: rgba(72, 168, 241, 0.638);
+     }
